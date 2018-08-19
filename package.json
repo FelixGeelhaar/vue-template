@@ -1,0 +1,46 @@
+{
+  "name": "com.sixt.web.fake-vehicle",
+  "version": "1.0.0",
+  "description": "Vehicle Faker for Quality Assurance",
+  "scripts": {
+    "start": "node server",
+    "build:client": "cross-env NODE_ENV=production webpack --config ./build/webpack.client.config.js",
+    "build": "rimraf ./dist && npm run build:client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felix Geelhaar <felix.geelhaar@sixt.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "vue": "^2.5.17",
+    "vuetify": "^1.1.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-hot-middleware": "^2.22.3"
+  }
+}

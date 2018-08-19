@@ -1,0 +1,11 @@
+/** third party modules **/
+node_modules
+
+/** ide **/
+vscode
+
+/** os **/
+DS_Store
+
+/** build **/
+dist
